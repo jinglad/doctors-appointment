@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+/* Common Css */
+.btn-primary {
+  background-color: #1cc7c1 !important;
+  border: none !important;
+  color: black;
+  font-weight: 600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-primary {
+  background-color: #1cc7c1 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.display-4 {
+  font-weight: bold !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.text-primary {
+  color: #1cc7c1 !important;
+}
+
+/* Navbar Component */
+
+.menu-item {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-right: 20px;
+  color: black !important;
+  transition: 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+  background-color: aqua;
+}
+
+/* Header Component */
+
+.header-bg {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("./images/headerImg.png");
+  height: 750px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* header bottom */
+
+.info-icon {
+  font-size: 100px;
+  margin-right: 15px;
+}
+
+/* Appointment */
+
+.appointment {
+  height: 543px;
+  background-image: linear-gradient(#42485ce4, #42485ce4),
+    url("./images/headerImg.png");
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  display: flex;
+  align-items: center;
 }
